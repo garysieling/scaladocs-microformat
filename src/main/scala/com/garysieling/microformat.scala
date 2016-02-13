@@ -1,6 +1,35 @@
 package com.garysieling
 
+/**
+  * A object to print out 'microformat' API docs.
+  *
+  * Specify the `name`, `age`, and `weight` when creating a new `Person`,
+  * then access the fields like this:
+  * {{{
+  * val p = Person("Al", 42, 200.0)
+  * p.name
+  * p.age
+  * p.weight
+  * }}}
+  *
+  * Did you know: The [[com.acme.foo.Employee]] extends this class.
+  *
+  * @constructor Create a new person with a `name`, `age`, and `weight`.
+  * @param name The person's name.
+  * @param age The person's age.
+  * @param weight The person's weight.
+  * @author Gary Sieling
+  * @version 1.0
+  * @todo Add more functionality.
+  * @see See [[http://garysieling.com garysieling.com]] for more "
+  * information.
+  */
 object MicroformatScalaDoc {
+  /**
+   * Main method
+   *
+   * @param args command line args - unused
+   */
   def main(args: Array[String]) = {
     println("""
 {
